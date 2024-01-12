@@ -89,6 +89,7 @@ main {
 
 .features {
     display: flex;
+    gap: 70px;
     justify-content: space-around;
     align-items: center;
     margin-top: 85px;
@@ -100,17 +101,13 @@ main {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.feature-content {
-    padding-left: 70px;
-    padding-right: 70px;
-
-}
 
 .feature-title {
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
 }
+
 
 .feature-description {
     color: #727272;
@@ -129,6 +126,23 @@ main {
     font-size: 3rem;
     font-weight: 700;
 }
+
+/* facts section style */
+.facts {
+    margin: 130px 0px;
+}
+
+.facts-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.facts-description {
+    color: #727272;
+    font-weight: 400;
+}
+
 
 
 /* responsive style */
@@ -159,11 +173,7 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .feature-content {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 20px;
-    }
+
 }
 
 /* for medium device */
@@ -189,9 +199,6 @@ main {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .feature-content {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
+
 
 }
