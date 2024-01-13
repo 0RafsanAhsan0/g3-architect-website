@@ -127,6 +127,73 @@ main {
     font-weight: 700;
 }
 
+/* love section */
+.love-enjoy {
+    display: flex;
+    gap: 140px;
+    margin-top: 130px;
+}
+
+.love-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.love-description {
+    color: #727272;
+}
+
+.love-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+}
+
+.love-box {
+    margin-top: 30px;
+}
+
+.love-card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.love-card h4 {
+    color: #131313;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.love-card p {
+    color: #727272;
+}
+
+.badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    width: 342px;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.badge h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.badge p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
 /* facts section style */
 .facts {
     margin: 130px 0px;
@@ -173,6 +240,7 @@ main {
 /* sponsor section styles */
 .sponsor {
     text-align: center;
+    margin-bottom: 130px;
 }
 
 .sponsor-title {
@@ -180,12 +248,14 @@ main {
     font-size: 2.8rem;
     font-weight: 700;
 }
-.sponsor-description{
-    color:#727272;
+
+.sponsor-description {
+    color: #727272;
     margin-top: 24px;
     margin-bottom: 40px;
 }
-.sponsor-img{
+
+.sponsor-img {
     display: flex;
     justify-content: space-between;
 }
@@ -223,7 +293,8 @@ main {
         gap: 5px;
         padding: 5px 5px;
     }
-    .sponsor-img{
+
+    .sponsor-img {
         flex-direction: column;
         gap: 10px;
     }
@@ -251,7 +322,8 @@ main {
     .feature-img {
         grid-template-columns: repeat(2, 1fr);
     }
-    .sponsor-img{
+
+    .sponsor-img {
         flex-direction: column;
         gap: 30px;
     }
